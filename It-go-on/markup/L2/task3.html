@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Формы</title>
+</head>
+<body>
+<form action="/" name="programmers">
+    <p>Name</p>
+    <input type="text" name="name"><br/>
+    <p>Email</p>
+    <input type="email" name="email"><br/>
+    <p>Sex</p>
+    <input type="radio" name="sex">Male
+    <input type="radio" name="sex">Female<br/>
+    <p>Current status</p>
+    <input type="checkbox" name="status">Student<br/>
+    <input type="checkbox" name="status">Employed<br/>
+    <input type="checkbox" name="status">Uneploeyed<br/>
+    <p>Month and Year of a birth</p>
+    <select name="month">
+        <option value="December">December</option>
+        <option value="January" selected="selected">January</option>
+        <option value="February">February</option>
+    </select>
+    <select name="Year">
+        <option value="1983">1983</option>
+        <option value="1984" selected="selected">1984</option>
+        <option value="1985">1985</option>
+    </select><br/>
+    <p>Skills and technologies</p>
+    <select name="Skills and technologies" size="10" multiple="multiple">
+        <optgroup label="Tech skills">
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="Javascript">Javascript</option>
+            <option value="Git">Git</option>
+        </optgroup>
+        <optgroup label="Soft skills">
+            <option value="Time management">Time management</option>
+            <option value="Proactivity">Proactivity</option>
+            <option value="Teamwork">Teamwork</option>
+            <option value="Leadership">Leadership</option>
+        </optgroup>
+    </select><br/>
+    <p>Photo</p>
+    <input type="file"  name="photo"><br/>
+    <p>Comments</p>
+    <textarea name="Comments" id="" cols="30" rows="4"></textarea><br/>
+    <input type="submit" value="Save">
+    </form>
+</body>
+</html>
